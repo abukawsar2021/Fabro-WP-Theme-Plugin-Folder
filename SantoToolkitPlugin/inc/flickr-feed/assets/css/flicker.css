@@ -1,0 +1,30 @@
+/*
+
+flicker feed style
+
+*/
+
+ul.form-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+ul.form-table li {
+    margin: 20px 0px;
+}
+
+ul.form-table li input[type="text"] {
+    margin-left: 100px;
+    width: 300px;
+    border-radius: 0;
+    padding: 4px;
+    max-width: 100%;
+}
+
+ul.form-table li:nth-child(2) input[type="text"] {
+    margin-left: 100px;
+    left: 11px;
+    position: relative;
+}
