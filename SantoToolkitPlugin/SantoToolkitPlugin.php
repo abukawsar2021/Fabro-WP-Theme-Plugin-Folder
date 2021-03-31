@@ -260,7 +260,7 @@ function santo_plguin_file_bootstraping(){
 	wp_enqueue_style('owl.carousel' ,  plugin_dir_url(__FILE__) . 'assets/css/owl.carousel.css');
 	wp_enqueue_style('santo-toolkit' , plugin_dir_url(__FILE__) . 'assets/css/santo-toolkit.css');
 	wp_enqueue_script('owl.carousel' , plugin_dir_url(__FILE__) . 'assets/js/owl.carousel.min.js',array('jquery'),'2.3.4',true);
-	wp_enqueue_script('isotope.pkgd'      , plugin_dir_url(__FILE__) . 'assets/js/isotope.pkgd.min.js',array('jquery'),'3.0.4',true);
+	wp_enqueue_script('isotope.pkgd' , plugin_dir_url(__FILE__) . 'assets/js/isotope.pkgd.min.js',array('jquery'),'3.0.4',true);
 	wp_enqueue_script('ticker'      , plugin_dir_url(__FILE__) . 'assets/js/ticker.js',array('jquery'),'3.0.4',true);
 
 }
